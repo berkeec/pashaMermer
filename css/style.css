@@ -1,0 +1,221 @@
+
+body h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: "Raleway", sans-serif; }
+
+.container-fluid {
+  padding: 0 !important; }
+
+#menu {
+  background-color: #FFFFFF;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  }
+  #menu nav {
+    height: 80px;
+    background-color: #FFFFFF !important;
+    position: relative; }
+    #menu nav .navbar-nav {
+      position: absolute;
+      right: 0; }
+      #menu nav .navbar-nav .nav-item {
+        padding-left: 10px;
+        padding-right: 10px; }
+        #menu nav .navbar-nav .nav-item .nav-link {
+          color: #0B3C5D;
+          font-family: "Raleway", sans-serif;
+          font-weight: 500; }
+          #menu nav .navbar-nav .nav-item .nav-link:hover {
+            color: #03A9F4;
+            transition: 0.5s ease; }
+
+
+.carousel-item {
+  margin-top: -90px;
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  
+  background-size: cover; }
+
+
+#footer {
+  padding: 0;
+  background: linear-gradient(-30deg, grey, white);
+   }
+
+  #footer #footeralt {
+    padding-top: 30px; }
+    #footer #footeralt h3, #footer #footeralt p, #footer #footeralt a, #footer #footeralt i {
+      color: #383A46; }
+    #footer #footeralt #footer3 i {
+      padding-bottom: 5px; }
+      #footer #footeralt #footer3 i span, #footer #footeralt #footer3 i a {
+        padding-left: 5px; }
+
+
+  .main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+h4.heading {
+	font-family: sans-serif;
+	color: #03A9F4;
+}
+hr{
+	width: 85%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+	
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    padding-top: 3px;
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+	
+}
+
+
+
+
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.articleWrapperBox {
+    padding: 5px!important;
+}
+.social-icons {
+
+width:100%;
+height:auto;
+margin:0 auto;
+padding:0;
+
+
+}
+.social-icons ul {
+
+padding-top: 15%;
+
+}
+
+.social-icons ul li {
+  display: inline;
+
+}
+
+.social-icons ul li a {
+  display: inline-block;
+
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  background: #ddd;
+  font-size: 16px;
+  text-align:center;
+}
+
+.social-icons ul li a:hover {
+  color: #fff;
+}
+
+.facebook a {
+  color: #4867AA;
+  
+}
+
+.facebook a:hover {
+  background: #4867AA;
+  transition: 1s;
+}
+
+.twitter a {
+  color: #1DA1F2;
+}
+
+.twitter a:hover {
+  background: #1DA1F2;
+  transition: 1s;
+}
+
+.google-plus a {
+  color: #DD4D42;
+}
+
+.google-plus a:hover {
+  background: #DD4D42;
+  transition: 1s;
+  }
+
+.youtube a {
+  color: #DF2926;
+}
+
+.youtube a:hover {
+  background: #DF2926;
+  transition: 1s;
+}
+
+.linkedin a {
+  color: #007BB6;
+}
+
+.linkedin a:hover {
+  background: #007BB6;
+  transition: 1s;
+}
+
+.pinterest a {
+  color: #BD081C;
+}
+
+.pinterest a:hover {
+  background: #BD081C;
+  transition: 1s;
+}
+
+.dribbble a {
+  color: #EA4C89;
+}
+
+.dribbble a:hover {
+  background: #EA4C89;
+  transition: 1s;
+}
+
+.behance a {
+  color: #0B7CFF;
+}
+
+.behance a:hover {
+  background: #0B7CFF;
+  transition: 1s;
+}
