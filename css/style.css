@@ -1,13 +1,15 @@
 
-body h1, h2, h3, h4, h5, h6, p, a, span {
-  font-family: "Raleway", sans-serif; }
+body h1, h2, h3, h4, h6, p, a, span {
+  font-family: "Raleway", sans-serif;
+  
+  }
 
 .container-fluid {
   padding: 0 !important; }
 
 #menu {
   background-color: #FFFFFF;
-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  }
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  }
   #menu nav {
     height: 80px;
     background-color: #FFFFFF !important;
@@ -19,11 +21,11 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  }
         padding-left: 10px;
         padding-right: 10px; }
         #menu nav .navbar-nav .nav-item .nav-link {
-          color: #0B3C5D;
+          color: #383A46;
           font-family: "Raleway", sans-serif;
           font-weight: 500; }
           #menu nav .navbar-nav .nav-item .nav-link:hover {
-            color: #03A9F4;
+            color: #9B7030;
             transition: 0.5s ease; }
 
 
@@ -34,12 +36,40 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);  }
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  
   background-size: cover; }
+
+  
+  div.contentContainer{
+	width:1346px;
+	position:relative;
+	margin: 50px auto;
+	}
+
+  div.contentContainer h1 {
+    text-align: center;
+  }
+  div.contentContainer p {
+    margin: 20px 0;
+    line-height: 25px;
+  }
+  
+  div.contentContainer div.pasha{
+    position: relative;
+    margin: auto;
+    
+  }
+  h1.contactHeader {
+    
+  position:relative;
+  margin: 50px auto;
+
+
+}
+  
 
 
 #footer {
-  padding: 0;
+  
   background: linear-gradient(-30deg, grey, white);
    }
 
@@ -67,11 +97,9 @@ h4.heading {
 	font-family: sans-serif;
 	color: #03A9F4;
 }
-hr{
-	width: 85%;
-	color: #fff;
-}
 
+
+}
 .form-group{
 	margin-bottom: 15px;
 	
@@ -95,10 +123,19 @@ input::-webkit-input-placeholder {
 
 .login-button{
 	margin-top: 5px;
+  background-color: #9B9B9B;
 	
 }
-
-
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #9B7030;
+    border-color: #9B7030; /*set the color you want here*/
+}
+h5{
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.40rem;
+}
 
 
 
@@ -109,6 +146,7 @@ input::-webkit-input-placeholder {
 .articleWrapperBox {
     padding: 5px!important;
 }
+
 .social-icons {
 
 width:100%;
@@ -118,9 +156,11 @@ padding:0;
 
 
 }
+
 .social-icons ul {
 
-padding-top: 15%;
+padding-top: 5%;
+
 
 }
 
